@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#"><span class="title1">ADMIN</span></a>
+                </li>
+
+                <li><a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Customers</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="title">Messages</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <span class="title">Password</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/welcome-img.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">76</div>
+                        <div class="cardName">Total Patients</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Medicine Sales</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">5000</div>
+                        <div class="cardName">Earnings</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="Patients">
+                    <div class="cardHeader">
+                        <h2>Recent Patients</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Patients</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Hiral Rane</td>
+                                <td>1200</td>
+                                <td>Paid</td>
+                            </tr>
+
+                            <tr>
+                                <td>Sejal Pawar</td>
+                                <td>110</td>
+                                <td>Paid</td>
+                            </tr>
+
+                            <tr>
+                                <td>Divya Rajput</td>
+                                <td>1200</td>
+                                <td>Paid</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="Medicines">
+                    <div class="cardHeader">
+                        <h2>Medicines Available</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="assets/imgs/welcome-img.jpg" alt=""></div></td>
+                            <td><h4>Fluticasone <br> <span>₹ 60</span></h4></td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="assets/imgs/welcome-img.jpg" alt=""></div></td>
+                            <td><h4>Allopathic Cipla<br> <span>₹ 100 </span></h4></td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="assets/imgs/welcome-img.jpg" alt=""></div></td>
+                            <td><h4>Linzod-600 Tablet <br> <span>₹ 300</span></h4></td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="assets/imgs/welcome-img.jpg" alt=""></div></td>
+                            <td><h4>Pantorac DSR <br> <span>₹ 50</span></h4></td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px"><div class="imgBx"><img src="assets/imgs/welcome-img.jpg" alt=""></div></td>
+                            <td><h4>Dabigatran 75 Mg<br> <span>₹ 30</span></h4></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
